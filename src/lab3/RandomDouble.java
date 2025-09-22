@@ -15,9 +15,9 @@ public class RandomDouble {
             lst1.add(rand_int1);
         }
 
-        System.out.println("Лист test1 до сортировки - " + lst1);
+        System.out.println("Lst1 до сортировки - " + lst1);
         Collections.sort(lst1);
-        System.out.println("Лист test1 после сортировки - " + lst1);
+        System.out.println("Lst1 после сортировки - " + lst1);
 
         for (int i = 0; i < 100; i++) {
             Double x = Math.random()*100;
@@ -25,8 +25,8 @@ public class RandomDouble {
         }
 
         System.out.println();
-        System.out.println("Лист test2 до сортировки - " + lst2);
+        System.out.println("List2 до сортировки - " + lst2);
         Collections.sort(lst2);
-        System.out.println("Лист test2 после сортировки - " + lst2);
+        System.out.println("List2 после сортировки - " + lst2);
     }
 }
